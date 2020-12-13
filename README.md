@@ -184,6 +184,7 @@ class Scraper
       doc = Nokogiri::HTML(open("http://learn-co-curriculum.github.io/site-for-scraping/courses"))
 
       binding.pry
+    
   end
 
 end
@@ -192,8 +193,8 @@ Scraper.new.get_page
 ```
 
 Once your file looks like the code above, run the file with `ruby
-lib/scraper.rb` in your terminal. Once you hit your binding, type the `doc`
-variable into the terminal and you should see the HTML document, retrieved for
+lib/scraper.rb` in your terminal. Once you hit your binding, type the `
+ into the terminal and you should see the HTML document, retrieved for
 us by Nokogiri and open-uri. You should see something like this:
 
 ![retrieved doc](http://readme-pics.s3.amazonaws.com/Screen%20Shot%202015-08-20%20at%204.25.06%20PM.png)
